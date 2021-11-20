@@ -3,4 +3,16 @@
 }
 .bg-image{
   background-size: cover;
+
+}
+.text-center{
+  line-height:200%
+
+}
+.msclick{
+  text-align: center;
+  line-height: 500%;
+}
+.form{
+  text-align: center;
 }
