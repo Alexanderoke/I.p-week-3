@@ -1,17 +1,24 @@
 .welcome{
   line-height: 2.5;
+  color: white;
 }
 .bg-image{
   background-size: cover;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
 
 }
 .text-center{
-  line-height:200%
+  line-height:200%;
+  padding: 30px;
+  border: 200px;
+  margin: 20px;
 
 }
 .msclick{
   text-align: center;
-  line-height: 500%;
+  line-height: 1500%;
 }
 .form{
   text-align: center;
@@ -23,5 +30,25 @@
 }
 .footer{
   text-align: center;
-  text: size: 20px;
+  
+}
+.heaader1{
+  -ms-text-justify: auto;
+}
+.containner{
+  justify-content: center;
+}
+.whatwdo{
+  padding: 20px;
+  border: 20px;
+  margin: 20px;
+  
+}
+.portfolio{
+  padding: 20px;
+  justify-content: center;
+  border: 20px;
+  margin: 20px;
+  
+
 }
