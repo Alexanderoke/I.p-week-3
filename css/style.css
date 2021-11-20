@@ -32,10 +32,11 @@
   text-align: center;
   
 }
-.heaader1{
-  -ms-text-justify: auto;
-}
+
 .containner{
+  justify-content: center;
+}
+.container2{
   justify-content: center;
 }
 .whatwdo{
@@ -49,6 +50,11 @@
   justify-content: center;
   border: 20px;
   margin: 20px;
-  
-
+}
+.col{
+  padding: 0px;
+  margin: 0px;
+}
+.body{
+  padding-left: 20px;
 }
