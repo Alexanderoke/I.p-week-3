@@ -9,3 +9,25 @@ $(document).ready(function(){
     $(".devp").hide();
   });
 });
+$(document).ready(function(){
+  $(".product").click(function(){
+    $(".product").hide();
+    $(".prodp").toggle();
+    
+  });
+  $(".prodp").click(function(){
+    $(".product").show();
+    $(".prodp").hide();
+  });
+});
+$(document).ready(function(){
+  $(".des").click(function(){
+    $(".des").hide();
+    $(".desp").toggle();
+    
+  });
+  $(".desp").click(function(){
+    $(".des").show();
+    $(".desp").hide();
+  });
+});
