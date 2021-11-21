@@ -46,7 +46,10 @@
   padding: 20px;
   border: 20px;
   margin: 20px;
-  
+   
+}
+.whatwdo>p{
+  text-align:center;
 }
 .portfolio{
   padding: 20px;
@@ -65,4 +68,6 @@
 .row{
   column-gap: 16px;
 }
-s
+.devp{
+  display:none;
+}

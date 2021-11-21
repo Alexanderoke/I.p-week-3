@@ -1,6 +1,11 @@
 $(document).ready(function(){
-  $("#dev").click(function(){
+  $(".dev").click(function(){
     $(".dev").hide();
-    $("p.devp").toggle();
+    $(".devp").toggle();
+    
+  });
+  $(".devp").click(function(){
+    $(".dev").show();
+    $(".devp").hide();
   });
 });
