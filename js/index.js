@@ -31,6 +31,13 @@ $(document).ready(function(){
     $(".desp").hide();
   });
 });
+$(document).ready(function(){
+$(".img-fluid").hover(function(){
+  $(this).css("border-color", "white");
+  }, function(){
+  $(this).css("border-color", "white");
+});
+});
 function submit(){
 var name= document.getElementById("name").value;
 var txtarea = document.getElementById("txtarea").value;
