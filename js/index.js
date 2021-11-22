@@ -31,3 +31,15 @@ $(document).ready(function(){
     $(".desp").hide();
   });
 });
+function submit(){
+var name= document.getElementById("name");
+var txtarea = document.getElementById("txtarea");
+var email= document.getElementById("email");
+if(name=="" || txtarea=="" || email==""){
+alert("Please enter your name, e-mail and message");
+}
+else {
+alert(name + "we have received your message. Thank you for reaching out to us");
+}
+}
+
