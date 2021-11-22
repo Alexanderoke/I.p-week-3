@@ -87,15 +87,17 @@ display:none;
 #name{
   background-color: transparent;
   border-color: white;
-  text:white;
+  
 }
 #email{
   background-color: transparent;
   border-color: white;
-  text:white;
 }
 #txtarea{
   background-color: transparent;
   border-color: white;
-  text:white;
+}
+.btn{
+  background-color: white;
+  
 }
