@@ -67,6 +67,7 @@
 }
 .row{
   column-gap: 16px;
+  margin: 0.5cm;
 }
 .devp{
   display:none;
@@ -76,4 +77,8 @@ display:none;
 }
 .desp{
   display:none;
+}
+.footer{
+  margin: 10px;
+  padding: 20px;
 }

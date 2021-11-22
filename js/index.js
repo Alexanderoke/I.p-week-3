@@ -32,9 +32,10 @@ $(document).ready(function(){
   });
 });
 function submit(){
-var name= document.getElementById("name");
-var txtarea = document.getElementById("txtarea");
-var email= document.getElementById("email");
+var name= document.getElementById("name").value;
+var txtarea = document.getElementById("txtarea").value;
+var email= document.getElementById("email").value;
+
 if(name=="" || txtarea=="" || email==""){
 alert("Please enter your name, e-mail and message");
 }
