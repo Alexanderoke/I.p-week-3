@@ -23,6 +23,7 @@
 .form{
   text-align: center;
   color: white;
+  background-color: transparent;
 }
 .contact{
   text-align: center;
@@ -68,6 +69,7 @@
 .row{
   column-gap: 16px;
   margin: 0.5cm;
+  
 }
 .devp{
   display:none;
@@ -81,4 +83,19 @@ display:none;
 .footer{
   margin: 10px;
   padding: 20px;
+}
+#name{
+  background-color: transparent;
+  border-color: white;
+  text:white;
+}
+#email{
+  background-color: transparent;
+  border-color: white;
+  text:white;
+}
+#txtarea{
+  background-color: transparent;
+  border-color: white;
+  text:white;
 }
