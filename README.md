@@ -9,7 +9,7 @@ The Delani website gives information about the Delani software development studi
 No server or dependencies needed
 ## Live link: https://alexanderoke.github.io/I.p-week-3/
 ## Known Bugs
-po ups not functioning as required.
+hover effects not functioning as required.
 ## Technologies Used
 the website is written in HTML, CSS, javascript and jquery(javascript libary.)
 ## Support and contact details

@@ -38,16 +38,18 @@ $(".img-fluid").hover(function(){
   $(this).css("border-color", "white");
 });
 });
-function submit(){
-var name= document.getElementById("name").value;
-var txtarea = document.getElementById("txtarea").value;
-var email= document.getElementById("email").value;
+$(document).ready(function(){
+  $(".btn").click(function(){
+var name= $("#name").val();
+var txtarea =$("#txtarea").val();
+var email= $("#email").val();
 
 if(name=="" || txtarea=="" || email==""){
 alert("Please enter your name, e-mail and message");
 }
 else {
-alert(name + "we have received your message. Thank you for reaching out to us");
+alert(name +" "+ "we have received your message. Thank you for reaching out to us");
 }
-}
+});
+});
 
